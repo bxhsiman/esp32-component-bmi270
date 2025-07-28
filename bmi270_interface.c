@@ -12,6 +12,8 @@
 #include "freertos/semphr.h"
 #include "rom/ets_sys.h"
 
+#include <string.h>
+
 static const char* TAG = "BMI270 interface";
 
 static i2c_master_bus_handle_t bmi270_bus       = NULL;
